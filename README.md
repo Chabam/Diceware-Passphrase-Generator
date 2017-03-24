@@ -1,7 +1,7 @@
 # Diceware passphrase generator
 This is nothing special, jus t a simple website designed to generate a passphrase using Diceware's dictonary.
 
-#Using it
+# Using it
 Just download the dist folder and run the `default.html` in your favorite browser and generate away!
 
 # N.B.
