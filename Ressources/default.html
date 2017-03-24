@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Diceware passphrase generator</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Diceware passphrase generator</h1>
+                <div class="explaination">
+                    <p> This is a passphrase generator that uses the combination of random numbers and
+                        the Diceware<sup>TM</sup> to generate passphrases. To use it, chose the amount of words
+                        ( the recommended amount is 6 ) you want, then click on generate to create a passphrase
+                        containing the number of words you selected.
+                    </p>
+                </div>
+            </div>
+            <div class="generator-settings">
+                <input id="word-amount" type="number" min="1" value="1">
+                <input id="generate" type="button" value="Generate">
+            </div>
+            <div class="generator-output">
+                <pre id="output"></pre>
+            </div>
+        </div>
+    </body>
+    <script src="js/diceware.wordlist.js"></script>
+    <script src="js/script.js"></script>
+</html>
